@@ -48,6 +48,8 @@ if(isset($_POST["username"]) && isset($_POST["password"])) {
     }
 }
 
+$user["theme"] = 3;
+
 include("parts/header.php");
 
 ?>

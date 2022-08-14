@@ -53,6 +53,8 @@ if(isset($_POST["signup"])) {
     }
 }
 
+$user["theme"] = 3;
+
 include("parts/header.php");
 
 ?>
